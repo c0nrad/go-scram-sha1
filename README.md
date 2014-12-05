@@ -2,6 +2,8 @@
 
 Implements base case with [RFC](https://tools.ietf.org/html/rfc5802) test values.
 
+Currently does all four messages and verifies client and server authenticity.
+
 ```
 ➜  scram git:(master) ✗ go run scram.go
 C: n,,n=user,r=fyko+d2lbbFgONRv9qkxdawL
